@@ -23,15 +23,24 @@
   color: white;
   display: inline-block;
 }
+.center {
+  text-align: center;
+}
 
 a {
   text-decoration: none;
 }
 
+.title {
+  text-align: center;
+  font-size: 35px;
+  color: grey;
+}
+
 /* - - - - - - -- -- this is the header - - - -- - - - */
 
 header h1 {
-  font-size: 20px;
+  font-size: 35px;
   font-weight: lighter;
   text-decoration: none;
 }
@@ -111,7 +120,7 @@ footer p {
   font-size: 60px;
   text-align: left;
   padding-top: 37%;
-  padding-left: 13rem;
+  padding-left: 16rem;
 }
 
 .h2-text {
@@ -123,5 +132,16 @@ footer p {
 
 .about-p {
   text-align: left;
-  padding: 3rem;
+  padding: 1.5rem;
+}
+
+/* - - - - - - --  - - --  this is the services page- - - - -- -  --- - */
+
+.services {
+  padding: 2rem;
+  color: grey;
+}
+
+.grid-services {
+  padding: 2rem;
 }
