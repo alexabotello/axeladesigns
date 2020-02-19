@@ -19,9 +19,10 @@
 }
 
 .button {
-  background-color: yellow;
+  background-color: grey;
   color: white;
   display: inline-block;
+  padding: .5rem;
 }
 .center {
   text-align: center;
@@ -70,7 +71,7 @@ nav a {
   display: inline-block;
   text-decoration: none;
   color: black;
-  padding: .5rem;
+  padding: .3rem;
 }
 
 /* - - - - - - - - - - - this is the footer - -   - - - - - - -  */
@@ -82,6 +83,7 @@ footer {
 .footer-logo {
   font-weight: lighter;
   font-size: 18px;
+  color: black;
 }
 footer p {
   font-family: 'Crimson Text', serif;
@@ -135,6 +137,27 @@ footer p {
   padding: 1.5rem;
 }
 
+/* - - - - - - - - - this is the how it works page - - - - - - - -- - - */
+
+.charities-banner {
+  background-image: url("/images/laptop.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 50vh;
+  object-fit: cover;
+  background-color: #F8F3E6;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+.big-light {
+  text-align: left;
+  text-transform: uppercase;
+  color: grey;
+  font-size: 20px;
+  padding-left: 1rem;
+  font-family: 'Work Sans', sans-serif;
+}
 /* - - - - - - --  - - --  this is the services page- - - - -- -  --- - */
 
 .services {
@@ -142,6 +165,32 @@ footer p {
   color: grey;
 }
 
-.grid-services {
-  padding: 2rem;
+.pricing-name {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: grey;
+  padding-top: 2rem;
+}
+
+.sections-h2 {
+    text-align: center;
+    font-size: 35px;
+    color: grey;
+  }
+
+.no-bullets {
+  list-style: none;
+  list-style-position: inherit;
+  color: grey;
+  padding: 1rem;
+}
+
+.h2-charities {
+  color: grey;
+  text-align: center;
+  font-size: 25px;
+}
+.charities-grid {
+  display: inline-block;
 }
