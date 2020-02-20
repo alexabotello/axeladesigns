@@ -201,7 +201,7 @@ footer p {
   padding-left: 50%;
   font-family: 'Work Sans', sans-serif;
   font-weight: lighter;
-  text-shadow: 2rem;
+  text-shadow: 0 0 3rem black;
 }
 
 .h2-text {
@@ -219,8 +219,8 @@ footer p {
 .blackline1 {
     position: absolute;
     background-image: url('/images/blackline1.svg');
-    background-size: 50%;
-    background-position: 100% 100%;
+    background-size: 70%;
+    background-position: 148% 100%;
     top: 0;
     width: 100%;
     height: 100%;
@@ -242,6 +242,7 @@ footer p {
 .services {
   padding: 2rem;
   color: grey;
+  position: relative;
 }
 
 .grid-services {
@@ -271,6 +272,27 @@ footer p {
   font-family: 'Lato', sans-serif;
 }
 
+.blackline3 {
+    position: absolute;
+    background-image: url('/images/blackline3.svg');
+    background-size: 30%;
+    background-position: 77% 0%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.blackline4 {
+    position: absolute;
+    background-image: url('/images/blackline4.svg');
+    background-size: 30%;
+    background-position: 77% 0%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
 /* - - - - - - --  - - --  this is the how it works page- - - - -- -  --- - */
 .charities-banner {
   background-image: url("/images/laptop.jpg");
