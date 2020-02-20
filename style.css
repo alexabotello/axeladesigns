@@ -141,6 +141,18 @@ footer p {
   background-size: cover;
   min-height: 90vh;
   object-fit: cover;
+  position: relative;
+}
+
+.whiteline {
+  position: absolute;
+  background-image: url('/images/whiteline.svg');
+  background-size: 100%;
+  background-position: -20% 20%;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
 }
 
 .index {
@@ -157,8 +169,13 @@ footer p {
   font-size: 26px;
 }
 
+.h2-index, .div-index {
+  text-shadow: 0 0 2rem black;
+}
+
 .button-index {
   margin-top: 2%;
+  margin-left: 10rem;
 }
 
 /* - - - - - -  - - - this is the about page - - - -- - - - - */
