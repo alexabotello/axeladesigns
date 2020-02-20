@@ -39,9 +39,11 @@ a {
 
 .title {
   text-align: center;
-  font-size: 48px;
+  font-size: 39px;
   color: grey;
   padding: 2rem;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
 }
 
 .padding1 {
@@ -57,6 +59,9 @@ a {
   margin-bottom: 1rem;
 }
 
+p {
+  font-family: 'Lato', sans-serif;
+}
 /* - - - - - - -- -- this is the header - - - -- - - - */
 
 header h1 {
@@ -81,7 +86,7 @@ header div .col-2-middle {
 }
 
 nav {
-  font-family: 'Crimson Text', serif;
+  font-family: 'Lato', sans-serif;
   font-weight: lighter;
   text-align: right;
 }
@@ -105,7 +110,7 @@ footer {
   color: black;
 }
 footer p {
-  font-family: 'Crimson Text', serif;
+  font-family: 'Lato', sans-serif;
   font-weight: lighter;
   text-align: right;
 }
@@ -122,7 +127,20 @@ footer p {
 
 .index {
   color: white;
-  padding-left: 4rem;
+  padding-left: 7rem;
+  font-family: 'Work Sans', sans-serif;
+}
+.h2-index {
+  font-size: 63px;
+  font-weight: normal;
+}
+
+.div-index {
+  font-size: 26px;
+}
+
+.button-index {
+  margin-top: 2%;
 }
 
 /* - - - - - -  - - - this is the about page - - - -- - - - - */
@@ -134,6 +152,8 @@ footer p {
   background-repeat: no-repeat;
   min-height: 90vh;
   background-position: bottom left;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: lighter;
 }
 
 .about-h2 {
@@ -141,7 +161,8 @@ footer p {
   font-size: 60px;
   text-align: left;
   padding-top: 37%;
-  padding-left: 16rem;
+  padding-left: 50%;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .h2-text {
