@@ -12,6 +12,15 @@ img {
   max-width: 100%;
 }
 
+h4 {
+  font-family: 'Lato', sans-serif;
+  font-size: 19px;
+  padding: .75rem;
+}
+
+i {
+  font-size: 18px;
+}
 /* - - - - - - - these are utilities - - - - -- - - - */
 
 .text-left {
@@ -42,7 +51,7 @@ a {
   font-size: 39px;
   color: grey;
   padding: 2rem;
-  font-family: 'Crimson Text', serif;
+  font-family: 'Playfair Display', serif;
   font-weight: bold;
 }
 
@@ -86,8 +95,7 @@ header div .col-2-middle {
 }
 
 nav {
-  font-family: 'Crimson Text', serif;
-  font-weight: lighter;
+  font-family: 'Playfair Display', serif;
   text-align: right;
 }
 
@@ -105,13 +113,11 @@ footer {
 }
 
 .footer-logo {
-  font-weight: lighter;
   font-size: 18px;
   color: black;
 }
 footer p {
-  font-family: 'Crimson Text', serif;
-  font-weight: lighter;
+  font-family: 'Playfair Display', serif;
   text-align: right;
 }
 
@@ -205,18 +211,24 @@ footer p {
   color: grey;
 }
 
+.grid-services {
+  background-color: #F8F3E6;
+  padding-top: 2rem;
+}
+
 .pricing-name {
   text-align: center;
   font-size: 25px;
   font-weight: bold;
   color: grey;
-  padding-top: 2rem;
 }
 
 .sections-h2 {
     text-align: center;
     font-size: 35px;
     color: grey;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 2rem;
   }
 
 .no-bullets {
@@ -224,6 +236,7 @@ footer p {
   list-style-position: inherit;
   color: grey;
   padding: 1rem;
+  font-family: 'Lato', sans-serif;
 }
 
 .h2-charities {
