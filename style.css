@@ -42,7 +42,7 @@ a {
   font-size: 39px;
   color: grey;
   padding: 2rem;
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Crimson Text', serif;
   font-weight: bold;
 }
 
@@ -86,7 +86,7 @@ header div .col-2-middle {
 }
 
 nav {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Crimson Text', serif;
   font-weight: lighter;
   text-align: right;
 }
@@ -110,7 +110,7 @@ footer {
   color: black;
 }
 footer p {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Crimson Text', serif;
   font-weight: lighter;
   text-align: right;
 }
