@@ -274,24 +274,25 @@ footer p {
 
 .blackline3 {
     position: absolute;
-    background-image: url('/images/blackline3.svg');
-    background-size: 30%;
-    background-position: 77% 0%;
+    background-size: 28%;
+    background-position: 77% 2%;
     top: 0;
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
+    pointer-events: none;
 }
 
 .blackline4 {
     position: absolute;
     background-image: url('/images/blackline4.svg');
-    background-size: 30%;
-    background-position: 77% 0%;
+    background-size: 28%;
+    background-position: 0% 89%;
     top: 0;
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
+    pointer-events: none;
 }
 /* - - - - - - --  - - --  this is the how it works page- - - - -- -  --- - */
 .charities-banner {
