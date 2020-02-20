@@ -1,9 +1,19 @@
 ---
 layout: default
 title: How It Works
-charityname1: People Charity
-charityname2: Planet Charity
-charityname3: Animals Charity
+charities:
+  - type: People
+    name: People Charity
+    image_path: /images/girl.jpg
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  - type: People
+    name: People Charity
+    image_path: /images/girl.jpg
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  - type: People
+    name: People Charity
+    image_path: /images/girl.jpg
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 ---
 
 <h2 class="title"> {{page.title}}
@@ -28,35 +38,17 @@ charityname3: Animals Charity
   <h2 class="h2-charities"> Meet the charities </h2>
 
 <div class="grid">
+  {% for charity in page.charities %}
     <div class="col-4_sm-12-middle">
-      <h3 class="h3-charities"> People </h3>
-        <div class="charities-name"> {{page.charityname1}} </div>
+      <h3 class="h3-charities"> {{charity.type}} </h3>
+        <div class="charities-name"> {{charity.name}} </div>
         <div class="padding1">
-          <div class="charity-images" style="background-image: url('/images/girl.jpg')"> </div>
+          <div class="charity-images" style="background-image: url('{{charity.image_path}}')"> </div>
         </div>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        {{charity.description}}
         </p>
     </div>
-    <div class="col-4_sm-12-middle">
-      <h3 class="h3-charities"> Planet </h3>
-        <div class="charities-name"> {{page.charityname2}} </div>
-        <div class="padding1">
-          <div class="charity-images" style="background-image: url('/images/girl.jpg')"> </div>
-        </div>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-  </div>
-  <div class="col-4_sm-12-middle">
-      <h3 class="h3-charities"> Animals </h3>
-        <div class="charities-name"> {{page.charityname3}} </div>
-        <div class="padding1">
-        <div class="charity-images" style="background-image: url('/images/girl.jpg')"> </div>
-        </div>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-  </div>
+    {% endfor %}
 </div>
 </section>
