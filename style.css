@@ -84,11 +84,6 @@ a {
 p {
   font-family: 'Lato', sans-serif;
 }
-
-.padding-top {
-  padding-top: 1rem;
-}
-
 /* - - - - - - -- -- this is the header - - - -- - - - */
 
 header h1 {
@@ -120,7 +115,7 @@ nav a {
   display: inline-block;
   text-decoration: none;
   color: #32312C;
-  padding: 1rem;
+  padding: .3rem;
 }
 
 /* - - - - - - - - - - - this is the footer - -   - - - - - - -  */
