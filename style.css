@@ -282,14 +282,14 @@ footer p {
 }
 
 .services {
-  padding: 2rem;
+  padding-top: 2%;
   color: grey;
   position: relative;
 }
 
 .grid-services {
   background-color: #F8F3E6;
-  padding-top: 2rem;
+  padding-top: 2%;
 }
 
 .pricing-name {
@@ -303,7 +303,7 @@ footer p {
     text-align: center;
     font-size: 35px;
     color: grey;
-    padding-bottom: 2rem;
+    padding: 2%;
   }
 
 .no-bullets {
@@ -409,6 +409,19 @@ footer p {
 
 .padding2 {
   padding-top: 2%;
+}
+
+.p-contact {
+  color: white;
+}
+
+.contact-banner {
+  background-image: url("/images/greenery.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 90vh;
+  object-fit: cover;
+  margin-top: 2%;
 }
 
 /* - - - - -  - - - - - forms  - - - - - - - - - - - - -  */
