@@ -482,3 +482,9 @@ form [class*=col-] {
    .mobile-button {
     font-size: 2vh;
    }
+
+  .mobile-padding {
+    padding:5% 20%;
+  }
+}
+/* - - -- - -  end media querey - -  -- - - --  */
