@@ -63,7 +63,7 @@ a {
   text-align: center;
   font-size: 35px;
   color: #32312C;
-  padding: 2rem;
+  padding: 5%;
   font-family: 'Work Sans', sans-serif;
   text-transform: uppercase;
   font-weight: lighter;
@@ -75,7 +75,7 @@ a {
 
 
 .padded {
-  padding: 5%;
+  padding: 2%;
 }
 
 .margin-bottom {
@@ -84,6 +84,10 @@ a {
 
 p {
   font-family: 'Lato', sans-serif;
+}
+
+.margin-top {
+  margin-top: 2%;
 }
 /* - - - - - - -- -- this is the header - - - -- - - - */
 
@@ -157,6 +161,8 @@ nav a {
 
 footer {
   margin-bottom: 0;
+  padding-bottom: 0;
+  display: inline-block;
 }
 
 .footer-logo {
@@ -177,6 +183,7 @@ footer p {
   min-height: 90vh;
   object-fit: cover;
   position: relative;
+  margin-top: 2%;
 }
 
 .whiteline {
@@ -248,7 +255,7 @@ footer p {
 
 .about-p {
   text-align: left;
-  padding: 1.5rem;
+  padding: 5%;
 }
 
 .blackline1 {
@@ -362,14 +369,14 @@ footer p {
   color: grey;
   text-align: center;
   font-size: 30px;
-  padding-top: 2rem;
+  padding-top: 5%;
 }
 .charities-grid {
   display: inline-block;
 }
 
 .h3-charities {
-  padding-top: 2rem;
+  padding-top: 5%;
   text-align: center;
   color: grey;
   font-size: 28px;
@@ -377,14 +384,14 @@ footer p {
 }
 
 .charities-name {
-  padding: 1rem;
+  padding: 5%;
   text-align: center;
   color: grey;
   font-size: 20px;
 }
 
 .p-charities {
-  margin: 1rem;
+  margin: 5%;
 }
 
 .charity-images {
@@ -395,13 +402,13 @@ footer p {
 }
 
 .big-light {
-  padding-top: 1rem;
+  padding-top: 5%;
 }
 
 /* - - - - - - - - contact page - - - - -- - -  */
 
 .padding2 {
-  padding-top: 1rem;
+  padding-top: 2%;
 }
 
 /* - - - - -  - - - - - forms  - - - - - - - - - - - - -  */
@@ -481,10 +488,31 @@ form [class*=col-] {
    }
    .mobile-button {
     font-size: 2vh;
+    margin-left: 31%
    }
 
   .mobile-padding {
     padding:5% 20%;
+  }
+}
+
+@media(max-width:425px) {
+  .mobile-footer {
+    font-size: 12px;
+  }
+  .mobile-title {
+    font-size: 20px;
+  }
+  .mobile-logo {
+    font-size: 30px;
+  }
+  .mobile-banner {
+    background-size: 92%;
+    min-height: 75vh;
+  }
+  .mobile-h2 {
+    padding-top: 107%;
+    padding-left: 30%;
   }
 }
 /* - - -- - -  end media querey - -  -- - - --  */
