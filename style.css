@@ -177,7 +177,7 @@ footer p {
 /* ------------------this is the index page --------------- */
 
 .index-banner {
-  background-image: url("/images/laptop.jpg");
+  background-image: url("/images/bannerimage.jpg");
   background-position: center;
   background-size: cover;
   min-height: 90vh;
@@ -225,7 +225,7 @@ footer p {
 
 .about-banner {
   background-color: #F8F3E6;
-  background-image: url("/images/girl.jpg");
+  background-image: url("/images/about.jpg");
   background-size: 70%;
   background-repeat: no-repeat;
   min-height: 90vh;
@@ -338,7 +338,7 @@ footer p {
 }
 /* - - - - - - --  - - --  this is the how it works page- - - - -- -  --- - */
 .charities-banner {
-  background-image: url("/images/laptop.jpg");
+  background-image: url("/images/charities.jpg");
   background-position: center;
   background-size: cover;
   min-height: 50vh;
