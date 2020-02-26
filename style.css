@@ -66,7 +66,7 @@ a {
   padding: 5%;
   font-family: 'Work Sans', sans-serif;
   text-transform: uppercase;
-  font-weight: lighter;
+  font-weight: bolder;
 }
 
 .padding1 {
@@ -170,6 +170,7 @@ footer p {
   color: white;
   padding-left: 10%;
   font-family: 'Work Sans', sans-serif;
+  padding-top: 25%;
 }
 .h2-index {
   font-size: 63px;
@@ -195,7 +196,7 @@ footer p {
   background-image: url("/images/about.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
-  min-height: 90vh;
+  min-height: 80vh;
   font-family: 'Work Sans', sans-serif;
   font-weight: lighter;
   position: relative;
@@ -209,6 +210,7 @@ footer p {
   font-family: 'Work Sans', sans-serif;
   font-weight: lighter;
   text-shadow: 0 0 3rem black;
+  margin-top: 15%;
 }
 
 .h2-text {
@@ -228,7 +230,7 @@ footer p {
   background-image: url("/images/working.JPG");
   background-position: center;
   background-size: cover;
-  min-height: 90vh;
+  min-height: 80vh;
   object-fit: cover;
   position: relative;
   margin-top: 2%;
@@ -315,10 +317,10 @@ footer p {
 }
 
 .contact-banner {
-  background-image: url("/images/houdini.JPG");
+  background-image: url("/images/greenery.jpg");
   background-position: center;
   background-size: cover;
-  min-height: 95vh;
+  min-height: 70vh;
   object-fit: cover;
   margin-top: 2%;
 }
@@ -432,6 +434,10 @@ form [class*=col-] {
   }
   .mobile-grids {
   font-size: 12px;
+}
+.mobindex-banner {
+  min-height: 80vh;
+  min-width: 65vh;
 }
 }
 /* - - -- - -  end media querey - -  -- - - --  */
