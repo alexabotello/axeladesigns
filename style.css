@@ -437,7 +437,7 @@ form [class*=col-] {
 }
 .mobindex-banner {
   min-height: 80vh;
-  min-width: 65vh;
+  background-position: 37%;
 }
 }
 /* - - -- - -  end media querey - -  -- - - --  */
