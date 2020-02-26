@@ -225,7 +225,7 @@ footer p {
 /* - - - - - - - - - this is the services page - - - - - - - -- - - */
 
 .services-banner {
-  background-image: url("/images/working.jpg");
+  background-image: url("/images/working.JPG");
   background-position: center;
   background-size: cover;
   min-height: 90vh;
@@ -315,7 +315,7 @@ footer p {
 }
 
 .contact-banner {
-  background-image: url("/images/houdini.jpg");
+  background-image: url("/images/houdini.JPG");
   background-position: center;
   background-size: cover;
   min-height: 95vh;
