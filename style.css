@@ -233,6 +233,7 @@ footer p {
   min-height: 80vh;
   object-fit: cover;
   position: relative;
+  padding-top: 2%;
 }
 
 .big-light {
