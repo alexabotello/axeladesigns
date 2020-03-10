@@ -233,7 +233,6 @@ footer p {
   min-height: 80vh;
   object-fit: cover;
   position: relative;
-  margin-top: 2%;
 }
 
 .big-light {
@@ -255,11 +254,8 @@ footer p {
 .grid-services {
   background-color: #3f3d30;
   padding-top: 5%;
-  padding-bottom:
   color: #8b8273;
   text-align: center;
-  margin-left:
-  margin-right:
 }
 
 .pricing-name {
