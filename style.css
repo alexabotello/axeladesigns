@@ -868,7 +868,10 @@
 
 } /* end media query */
 
-
+@media(max-width:2560px) {
+.mobshow {
+  display: none;
+}
 /* This media query kicks into action at the gridlex xs breakpoint */
 @media(max-width:425px) {
 
@@ -904,5 +907,8 @@
   background-position: top;
   background-size: contain;
   background-repeat: no-repeat;
+}
+.mobhide {
+  display: none;
 }
 } /* end media query */
