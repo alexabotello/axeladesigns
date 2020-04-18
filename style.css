@@ -886,18 +886,23 @@
   padding: 4rem;
 }
 .services2 {
-  padding: 5rem;
+  padding: 4rem;
 }
 .services3 {
-  padding: 5rem;
+  padding: 4rem;
 }
 .services4 {
-  padding: 5rem;
+  padding: 4rem;
 }
 .services5 {
   padding: 4rem;
 }
 .paddedmob {
   padding: 5rem;
+}
+.curve {
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 } /* end media query */
