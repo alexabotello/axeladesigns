@@ -870,6 +870,34 @@
 
 
 /* This media query kicks into action at the gridlex xs breakpoint */
-@media(max-width:576px) {
+@media(max-width:425px) {
 
+.axela {
+  font-size: 12vh;
+}
+.dawning {
+  font-size: 4rem;
+  text-align: center;
+}
+.text {
+  font-size: 1.5rem;
+}
+.services1 {
+  padding: 4rem;
+}
+.services2 {
+  padding: 5rem;
+}
+.services3 {
+  padding: 5rem;
+}
+.services4 {
+  padding: 5rem;
+}
+.services5 {
+  padding: 4rem;
+}
+.paddedmob {
+  padding: 5rem;
+}
 } /* end media query */
