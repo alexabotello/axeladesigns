@@ -952,16 +952,9 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
-.mobshow {
-  display: inline-block;
+.mobnav {
+  text-align: center;
+  font-size: 12px;
 }
-.mobhide {
-  display: none;
-}
-.logo {
-  max-width: 80%;
-}
-.h2 {
-  font-size: 0rem;
-}
+
 } /* end media query */
