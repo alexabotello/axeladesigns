@@ -203,6 +203,9 @@
    max-width: 100%;
    min-height: auto;
   }
+  .right {
+    text-align: right;
+  }
 
   header {
     padding: 2% 5%;
