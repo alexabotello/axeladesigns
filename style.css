@@ -334,6 +334,9 @@
     text-decoration: none;
   }
 
+.mobshow {
+  display: none;
+}
 
   /* -- Footer -- */
 
@@ -866,12 +869,53 @@
     flex-direction: row;
   }
 
+  .axela {
+    font-size: 12vh;
+  }
+  .dawning {
+    font-size: 4rem;
+    text-align: center;
+  }
+  .text {
+    font-size: 1.5rem;
+  }
+  .services1 {
+    padding: 5rem;
+  }
+  .services2 {
+    padding: 5rem;
+  }
+  .services3 {
+    padding: 5rem;
+  }
+  .services4 {
+    padding: 5rem;
+  }
+  .services5 {
+    padding: 5rem;
+  }
+  .paddedmob {
+    padding: 9rem;
+  }
+  .curve {
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .design {
+     min-height: 50vh;
+  }
+  .drawing {
+    min-height: 50vh;
+  }
+  .web {
+    min-height: 50vh;
+  }
+  .plant {
+    min-height: 50vh;
+  }
 } /* end media query */
 
-@media(max-width:2560px) {
-.mobshow {
-  display: none;
-}
 /* This media query kicks into action at the gridlex xs breakpoint */
 @media(max-width:425px) {
 
@@ -908,7 +952,16 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
+.mobshow {
+  display: inline-block;
+}
 .mobhide {
   display: none;
+}
+.logo {
+  max-width: 80%;
+}
+.h2 {
+  font-size: 0rem;
 }
 } /* end media query */
