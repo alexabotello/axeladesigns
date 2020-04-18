@@ -25,7 +25,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Crimson+Text:100i|Lato:300|Work+Sans:100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&family=Playfair+Display&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 
@@ -36,50 +36,57 @@
   <body>
 <!-- - - - - - - -  this is the desktop header - - - - - - - - - - - - -->
 
-<header class="centered">
-  <a href="index.html">
-    <h1 class="header-logo logo mobile-logo"> AXELA DESIGNS</h1>
-  </a>
-  <nav class="center">
-    <a href="#about"> About </a>
-    <a href="#services"> Services </a>
-    <a href="#worktogether"> Contact </a>
+<header class="grid-center">
+  <nav class="col-4-middle right">
+    <a href="index.html#about"> ABOUT </a>
+    <a href="index.html#services"> SERVICES </a>
+  </nav>
+  <div class="col-2-middle centered">
+    <a href="index.html">
+      <h2> <img src="images/axeladesignslogo.png" alt="Axela Designs Logo" class="logo"> </h2>
+    </a>
+  </div>
+  <nav class="col-4-middle">
+    <a href="portfolio.html"> PORTFOLIO </a>
+    <a href="index.html#contact"> CONTACT </a>
   </nav>
 </header>
 
-<!--  This is my mobile header -->
 
 <!-- - - -  -  - - - - this is the content - - - - - - - - -  - - -->
 
     {{content}}
 
 <!-- - - - - - -  - - - - - - this is the footer - - - - - - - - - -->
-    <footer class="grid mobile-footer">
-      <!-- column -->
-      <div class="col-5_sm-12 padded">
-        <a href="index.html">
-          <h2 class="footer-logo logo"> AXELA DESIGNS </h2>
-        </a>
-      </div>
-      <div class="col-1 sm-hidden"></div>
-      <!-- column -->
-      <div class="col-6_sm-12-middle right">
-        <nav class="inline">
-          <a href="#about"> About </a>|
-          <a href="#services"> Services </a>|
-          <a href="#worktogether"> Contact </a>
-        </nav>
-        <nav class="inline socials">
-          <a href="https://www.facebook.com/axeladesignss/">
-            <i class="fab fa-facebook-square"></i>
-          </a>
-          <a href="https://www.instagram.com/axeladesigns">
-            <i class="fab fa-instagram"></i>
-          </a>
-        </nav>
-      </div>
-    </footer>
 
+<footer class="grid">
+  <!-- column -->
+  <div class="col-5_sm-12">
+    <a href="index.html">
+    <h2> <img src="images/axeladesignslogo.svg" alt="Axela Designs Logo" class="footer"> </h2>
+    </a>
+  </div>
+  <div class="col-1 sm-hidden"></div>
+  <!-- column -->
+  <div class="col-6_sm-12-middle right">
+    <nav class="inline">
+      <a href="#about"> About </a>|
+      <a href="#services"> Services </a>|
+      <a href="portfolio.html"> Portfolio </a>|
+      <a href="#contact"> Contact </a>
+    </nav>
+    <nav class="inline socials">
+      <a href="https://www.facebook.com/axeladesignss/" target="_blank">
+        <i class="fab fa-facebook-square"></i>
+      </a>
+      <a href="https://www.instagram.com/alexabotello/" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </nav>
+  </div>
+</footer>
+
+<!-- - - - - - -  SCRIPTS - - - - - - - - -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
